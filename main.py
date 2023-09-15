@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 from pathlib import Path
 import whisper
-KEY = '6448395763:AAFOmvM1zIg32SeQfWCk4lIgpk8ZbMpwgRc'
+KEY = ''
 path = Path('audios')
 MODELO = whisper.load_model('base')
 
